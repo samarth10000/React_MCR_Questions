@@ -1,10 +1,13 @@
 import "./App.css";
 
-import CharcterCounter from "./Components/ChracterCounter";
-import CounterUseState from "./Components/CounterUseState";
-import MultiStepform from "./Components/Multistepform";
-import TogglePassword from "./Components/TogglePassword";
-// import WelcomeAlert from "./Components/WelcomeAlert";
+import CharcterCounter from "./Components/UseState/ChracterCounter";
+import CounterUseState from "./Components/UseState/CounterUseState";
+import MultiStepform from "./Components/UseState/MultiStepform";
+import TogglePassword from "./Components/UseState/TogglePassword";
+import Welcomealert from "./Components/UseEffect/WelcomeAlert";
+import Updatethepagetitle from "./Components/UseEffect/Updatethepagetitle";
+import AutoIncrementCounter from "./Components/UseEffect/AutoIncrementCounter";
+
 // import AutoCounter from "./Components/AutoCounter";
 
 function App() {
@@ -23,8 +26,10 @@ function App() {
       <TogglePassword />
       <CharcterCounter />
       <MultiStepform />
-      {/* <WelcomeAlert />
-      <AutoCounter /> */}
+      <Welcomealert />
+      <Updatethepagetitle />
+      <AutoIncrementCounter />
+      {/* <AutoCounter />  */}
     </div>
   );
 }
