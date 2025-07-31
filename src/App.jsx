@@ -7,6 +7,8 @@ import TogglePassword from "./Components/UseState/TogglePassword";
 import Welcomealert from "./Components/UseEffect/WelcomeAlert";
 import Updatethepagetitle from "./Components/UseEffect/Updatethepagetitle";
 import AutoIncrementCounter from "./Components/UseEffect/AutoIncrementCounter";
+import FetchUserdataapi from "./Components/UseEffect/fetchUserDataApi";
+import LiveSearchDebounce from "./Components/UseEffect/LiveSearchDebounce";
 
 // import AutoCounter from "./Components/AutoCounter";
 
@@ -29,7 +31,9 @@ function App() {
       <Welcomealert />
       <Updatethepagetitle />
       <AutoIncrementCounter />
+      <FetchUserdataapi />
       {/* <AutoCounter />  */}
+      <LiveSearchDebounce />
     </div>
   );
 }
